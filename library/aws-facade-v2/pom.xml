@@ -96,4 +96,13 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>kdegregory Log4j Appender</name>
+            <url>https://maven.pkg.github.com/matteoporrecacap/log4j-aws-appenders</url>
+        </repository>
+    </distributionManagement>
+
+
 </project>
