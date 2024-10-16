@@ -18,7 +18,7 @@
         <module>library/logwriters</module>
         <module>library/aws-facade-v1</module>
         <module>library/aws-facade-v2</module>
-        <module>library/log4j1-appenders</module>
+        <!--<module>library/log4j1-appenders</module>-->
         <module>library/log4j2-appenders</module>
         <module>library/logback-appenders</module>
         <module>integration-tests/helpers/itest-helper-v1</module>
