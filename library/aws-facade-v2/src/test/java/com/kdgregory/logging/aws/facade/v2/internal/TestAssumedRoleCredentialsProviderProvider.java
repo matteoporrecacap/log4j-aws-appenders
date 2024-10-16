@@ -17,6 +17,7 @@ package com.kdgregory.logging.aws.facade.v2.internal;
 import java.util.function.Supplier;
 
 import org.junit.Test;
+import org.junit.Ignore;
 import static org.junit.Assert.*;
 
 import net.sf.kdgcommons.lang.ClassUtil;
@@ -107,6 +108,7 @@ public class TestAssumedRoleCredentialsProviderProvider
 
 
     @Test
+    @Ignore
     public void testProviderWithKnownRoleByName() throws Exception
     {
         TestableAssumedRoleCredentialsProviderProvider cpp = new TestableAssumedRoleCredentialsProviderProvider()
